@@ -1,0 +1,287 @@
+:root{
+  --pr-color: #174490;
+  --sec-color: #4a5565;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*,html.body {
+  font-family: 'Inter', sans-serif;
+}
+
+.active {
+  background-color: #B6ebf3 !important;
+  color: var(--pr-color) !important;
+  font-weight: bold !important;
+  border-radius: 15%;
+}
+
+.custom-fs {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dropdown-item:hover{
+  background-color: #B6ebf3 !important;
+  opacity: 0.5; 
+}
+
+.nav-link:hover {
+  background-color: #B6ebf3 !important;
+  opacity: 0.6;
+  transition: 1s all ease-in-out;
+}
+
+
+.navbar {
+  background-color: #fff;
+  z-index: 3;
+  height: 100px !important;
+  padding: 24px 40px 24px 40px !important;
+}
+
+.custom-btn {
+  background-color: #174490;
+  padding: 8px 16px 8px 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.tentang-perusahaan {
+  color: var(--pr-color);
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.custom-desc {
+  font-size: 20px;
+  margin-left: 5%;
+  color: var(--sec-color);
+  margin-right: 5%;
+}
+
+.custom-built{
+  color: var(--sec-color);
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+
+.custom-img {
+  min-width: auto;
+  min-height: auto;
+  height: 400px;
+  position: relative;
+}
+
+/* Visi dan Misi */
+
+.visimisi {
+  background-color: #eef2f6;
+  height: 350px;
+}
+.card-title {
+  color: var(--pr-color) !important;
+  font-weight: bold;
+}
+
+.visitext {
+  color: var(--sec-color);
+}
+
+.misi-text {
+  color:var(--sec-color); 
+}
+
+/* Founder */
+
+.founder {
+  margin-top: 5%;
+  height: 712.781px;
+}
+.founder-section{
+  color: var(--pr-color);
+  font-size: 18px ;
+  font-weight: 600;
+  letter-spacing: 0.18px;
+  text-align: center;
+}
+
+.founder-company {
+  font-size: 36px;
+  font-weight: 700;
+  color: #001230;
+  text-align: center;
+}
+
+
+/* Layanan */
+.layanan {
+  margin-top: 5%;
+}
+
+.layanan-section {
+  color: #001230;
+  font-weight:700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.layanan-tagline {
+  color: var(--pr-color);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.count {
+  color: var(--pr-color);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+
+.layanan-text {
+  color: var(--sec-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Company Information */
+.company-information {
+  margin-top: 5%;
+}
+
+.company-name {
+  font-size: 18px;
+  color: var(--pr-color);
+  font-weight: 600;
+}
+
+.company-cta {
+  color: #001230;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.alamat {
+  font-size: 18px;
+  color: var(--sec-color);
+  font-weight: 600;
+}
+
+/* Hubungi Kami */
+#hubungi-kami{
+    background-image: url('https://framerusercontent.com/images/lBrqQuAARuLcOTAC273XUvSToHA.jpg')
+}
+.hubungi-form{
+  background-color: #eef2f6;
+  padding: 5% 0;
+}
+.hubungikami-section {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Footer */
+.footer-company {
+  font-size: 16px;
+  color: #001b49;
+  font-weight: 700;
+}
+
+.footer-desc{
+  font-size: 14px;
+  color: var(--sec-color);
+}
+
+.footer-address {
+  font-size: 14px;
+  color: #001b49;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-cta {
+  font-size: 14px;
+  font-weight: 700;
+  color: #001b49;
+  text-align: right;
+  margin-top: 15%;
+}
+
+.footer-end{
+  font-size: 12px;
+}
+
+.sosialmedia > a {
+  font-size: 24px;
+  color: #0000ee;
+  margin-right: 2%;
+}
+/* RESPONSIVE */
+@media screen and (max-width:768px) {
+  .custom-desc {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 3%;
+    margin-right: 2%;
+  }
+
+  .custom-built {
+    text-align:center;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+
+  .collapse{
+    background:white;
+    text-align: center; 
+    margin: 2% 0;
+    z-index: 3;
+  }
+
+  .visimisi {
+    height: 600px;
+    overflow: hidden;
+  }
+  .founder-company {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .founder-img{
+    width: 320px;
+    margin-right: 15%;
+  }
+  
+  .founder {
+    margin-top: 2%;
+    height: 350px;
+  }
+  .layanan-img {
+    width: 320px;
+
+  }
+
+  .visimisi-card {
+    margin-right: 1000px;
+  }
+
+  .maps {
+    width: 400px;
+  }
+
+  .company-information {
+    margin-top: 20%;
+  }
+}
+
